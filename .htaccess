@@ -1,0 +1,3 @@
+<Files pass.txt> 
+  deny from all 
+</Files>

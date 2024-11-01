@@ -1,0 +1,132 @@
+ul#tabnav { 
+text-align: left; 
+margin: 1em 0 1em 0; 
+border-bottom: 1px solid #C4DEF1; 
+list-style-type: none;
+padding: 1px 10px 0px 10px; 
+}
+
+.respro ul { 
+text-align: left; 
+margin-left: 15px; 
+list-style-type: square;
+padding: 14px 14px 14px 14px; 
+display: list-item;
+font-size: 17px;
+line-height: 1.5;
+}
+
+.respro li { 
+text-align: left; 
+list-style-type: circle;
+margin-left:  30px; 
+}
+
+
+ul#tabnav li { 
+display: inline;
+}
+
+div#orders li.tab2, div#makeorder li.tab3, div#resources li.tab4, div#offers li.tab5, div#settings li.tab6, div#ordertable li.tab1 { 
+border-bottom: 1px solid #F9F9F9; 
+background-color: #F9F9F9; 
+}
+
+
+div#orders li.tab2 a, div#makeorder li.tab3 a, div#resources li.tab4 a, div#offers li.tab5 a, div#settings li.tab6 a, div#ordertable li.tab1 a { 
+background: #F9F9F9 ; 
+color: #000; 
+position: relative;
+top: 1px;
+padding-top: 9px; 
+}
+#tabnav img{ position:relative; top: 2px;}
+
+
+ul#tabnav li a { 
+padding: 8px 8px; 
+border: 1px solid #C4DEF1; 
+background-color: #F1F1F1; 
+color: #21759B; 
+margin-right: 0px; 
+position: relative;
+
+line-height:30px;
+text-decoration: none;
+border-bottom: none;
+background: #999 url(../../../../../wp-admin/images/blue-grad.png)
+}
+
+
+ul#tabnav a:hover { 
+background: #fff; 
+color: #000;
+}
+
+select#settings{
+width:150px;
+}
+
+
+/* 
+jQTreeTable
+*/
+.collapsed { display: none; }
+.tablemain {min-width:600px;background-color:#ddeaf5;border-collapse: collapse; border: solid 1px #c4def1; padding: 0px; text-align: left; }
+.tablemain td {margin-left:3px;  text-align: center;}
+.tablemain th, .res_acthead { text-align: center; }
+.tablemain div,input{display:inline; padding:0;margin:0; }
+
+
+#treet {background-color:#f8f8f8}
+#treet td { font: normal 10pt Arial; padding: 3px 2px 3px 0px; cursor: pointer; border-bottom: 1px solid #c4def1;}
+#treet input {border: 1px solid #eee; background:none;}
+.res_capacity {text-align:center; width:60px;}
+.res_price{text-align:center; width:80px;}
+.adeimg, .ttimage, .parimg, .preimg { border: none; margin: 0px; padding: 0px; vertical-align: bottom; }
+.adeimg, .parimg {cursor: pointer; }
+.even { background-color: #fff; }
+.over { background-color: #ddeaf5; }
+
+table.ordertable { text-align:center; font-size: 12px; color:#OOO}
+table.ordertable thead{background: #999 url(../../../../../wp-admin/images/blue-grad.png); color:#21759B }
+table.ordertable td.mark {background: #999 url(../../img/red-grad.png); color: #fff }
+table.ordertable td {height:25px}
+table.ordertable th{ color: #fff  }
+table.ordertable a{ color: #fff; text-decoration:underline;  }
+table.ordertable a:hover{  font-weight: bold;}
+tr.rowot-1 { background: #f8f8f8; color: #61A4DB;}
+tr.rowot1 { background: #EEE; color: #61A4DB; }
+
+input.res-next {
+	border: none; 
+	background:url(../../img/next.png); 
+	width: 76px; height:32px; 
+	color: #fff; 
+	padding-right:12px;
+	padding-bottom:8px;
+	font-weight: bold;
+	font-size:15px;
+	top:3px;
+	position:relative;
+}
+
+input.res-prev {
+	border: none; 
+	background:url(../../img/prev.png); 
+	width: 76px; height:32px; 
+	color: #fff; 
+	padding-right:0px;
+	padding-bottom:8px;
+	font-weight: bold;
+	font-size:15px;
+	top:3px;
+	position:relative;
+}
+
+input[type=submit].res-prev:hover { padding-top:2px;	color: #eee;}
+input[type=submit].res-next:hover { padding-top:2px;	color: #eee;}
+
+.resdate {color:#21759B;}
+
+
